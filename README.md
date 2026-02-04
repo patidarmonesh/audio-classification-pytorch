@@ -21,13 +21,12 @@ This project implements a **production-grade audio classification system** desig
 
 ### Key Achievements
 
--  Macro F1-Score: 0.87** on test set (12% improvement over ResNet18)
--  Weighted Class Handling** with dynamic class weight computation
--  TPU/GPU Acceleration** with PyTorch XLA support
-- 3-Fold Cross-Validation** with stratified sampling
--  Comprehensive Metrics**: Precision (0.84), Recall (0.85), with per-class analysis
--  18% Overfitting Reduction** through extensive augmentation and regularization
-
+- **Macro F1-Score:** 0.87 on test set (12% improvement over ResNet18)
+- **Weighted Class Handling:** with dynamic class weight computation
+- **TPU/GPU Acceleration:** with PyTorch XLA support
+- **3-Fold Cross-Validation:** with stratified sampling
+- **Comprehensive Metrics:** Precision (0.84), Recall (0.85), with per-class analysis
+- **18% Overfitting Reduction:** through extensive augmentation and regularization
 ---
 
 ## Dataset
@@ -208,7 +207,7 @@ Each residual block implements:
 
 ```bash
 # Clone repository
-git clone https://github.com/YOUR_USERNAME/audio-classification-pytorch.git
+git clone https://github.com/patidarmonesh/audio-classification-pytorch.git
 cd audio-classification-pytorch
 
 # Create virtual environment
@@ -494,11 +493,11 @@ If you use this code or results in your research, please cite:
 
 ```bibtex
 @software{audio_classification_2026,
-  author = {Your Name},
+  author = {Monesh Patidar},
   title = {Audio Classification with PyTorch: Nonspeech Sound Recognition},
   year = {2026},
   publisher = {GitHub},
-  url = {https://github.com/YOUR_USERNAME/audio-classification-pytorch},
+  url = {https://github.com/patidarmonesh/audio-classification-pytorch},
   note = {Achieves 0.87 macro F1-score on Nonspeech7k dataset}
 }
 
@@ -536,9 +535,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions, issues, or collaborations:
 
-- **GitHub Issues**: [Project Issues](https://github.com/YOUR_USERNAME/audio-classification-pytorch/issues)
+- **GitHub Issues**: [Project Issues](https://github.com/patidarmonesh/audio-classification-pytorch/issues)
 - **Email**: moeshp23@iitk.ac.in
-- **LinkedIn**: [Your Profile](https://www.linkedin.com/in/monesh-patidar-056763283/)
+- **LinkedIn**: [Monesh Patidar](https://www.linkedin.com/in/monesh-patidar-056763283/)
 
 ---
 
