@@ -1,0 +1,53 @@
+# Training Configuration
+
+# Model Configuration
+model:
+  num_classes: 7
+  dropout: 0.5
+
+# Training Hyperparameters
+training:
+  batch_size: 32
+  num_epochs: 50
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  patience: 3
+  num_folds: 3
+
+# Audio Processing
+audio:
+  sample_rate: 32000
+  duration: 4  # seconds
+  n_fft: 2048
+  hop_length: 512
+  n_mels: 128
+
+# Data Augmentation
+augmentation:
+  freq_mask_param: 15
+  time_mask_param: 30
+  noise_std: 0.001
+  time_shift_ratio: 0.1
+  amplitude_range: [0.8, 1.2]
+
+# Paths (update these with your data paths)
+paths:
+  train_annotations: "data/metadata_train.csv"
+  test_annotations: "data/metadata_test.csv"
+  train_audio_dir: "data/train/audio_files"
+  test_audio_dir: "data/test/audio_files"
+  output_dir: "./outputs"
+
+# Other Settings
+seed: 42
+num_workers: 4
+
+# Class Names
+class_names:
+  - Cough
+  - Sneeze
+  - Snore
+  - Laugh
+  - Crying
+  - Sniff
+  - Throat_Clear
