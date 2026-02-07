@@ -495,7 +495,7 @@ If you use this code or results in your research, please cite:
 @software{audio_classification_2026,
   author = {Monesh Patidar},
   title = {Audio Classification with PyTorch: Nonspeech Sound Recognition},
-  year = {2026},
+  year = {2025},
   publisher = {GitHub},
   url = {https://github.com/patidarmonesh/audio-classification-pytorch},
   note = {Achieves 0.87 macro F1-score on Nonspeech7k dataset}
